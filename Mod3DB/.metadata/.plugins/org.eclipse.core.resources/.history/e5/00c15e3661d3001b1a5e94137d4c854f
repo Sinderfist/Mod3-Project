@@ -1,0 +1,27 @@
+package mod3DB.database.model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="Profile")
+public class Profile {
+	
+@Id
+@Column
+@GeneratedValue
+private Long id;
+
+@Column
+private String username;
+
+@Column
+private String password;
+
+@Column 
+private String name;
+
+@Column
+private String Email;
+
+public
+}
