@@ -26,7 +26,6 @@ public class ProfileController {
 		return ProfileService.getProfileById(id);
 	}
 	
-	
 	@PostMapping
 	public Profile createProfile(@RequestBody Profile data){
 		return ProfileService.createProfile(data);
