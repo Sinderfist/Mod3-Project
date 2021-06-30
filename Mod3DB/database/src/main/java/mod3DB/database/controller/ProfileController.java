@@ -31,7 +31,7 @@ public class ProfileController {
 		return ProfileService.createProfile(data);
 	}
 
-	@PatchMapping
+	@PutMapping
 	public Profile updateProfile(@RequestBody Profile data) {
 		return ProfileService.updateProfile(data);
 		
